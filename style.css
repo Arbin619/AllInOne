@@ -1,0 +1,40 @@
+
+#container{
+    background-image: url("bimg.jpg");
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+}
+#Sub-Container{
+
+    gap:20px;
+    background-color:rgba(65,65,65,0.7);
+    padding:50px;
+    display:flex;
+    flex-direction:column;
+    height:fit-content;
+    border-radius: 10px;
+}
+#Sub-Container *{
+    font-family:Arial,sans-serif;
+}
+#Sub-Container h1{
+    color:white;
+}
+#Sub-Container input{
+
+}
+#Sub-Container input:last-child{
+height:200px;
+}
+#Sub-Container button{
+    cursor:pointer;
+    padding:20px;
+    color:white;
+    background-color: red;
+    border-radius: 10px;
+    border:none;
+    font-size:1.2rem;
+}
